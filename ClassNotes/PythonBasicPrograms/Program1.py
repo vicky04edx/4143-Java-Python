@@ -25,6 +25,7 @@ sum from 1 until the number entered
 ###################################################
 # for i in range (1, num+1):
 #     print(i, i*i)
+###################################################
 # if (name == lastname):
 #     print("Your name and Last name are the same")
 # else:
