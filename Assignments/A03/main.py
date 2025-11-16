@@ -1,18 +1,27 @@
 ##################################################################################
-#   Author:           Victoria Heredia
-#   Email:            vdheredia1128@my.msutexas.edu
-#   Label:            A03
-#   Title:            Program 3: Pet Daycare database
-#   Course:           CMPS 4143 
+#   Author:           Rykir Evans and Victoria Heredia
+#   Email:            | vdheredia1128@my.msutexas.edu
+#   Label:            A04
+#   Title:            Program 4: Page Replacement Simulation
+#   Course:           CMPS 4143 - Operating Systems
 #   Semester:         Fall 2025
-#  
+#
 #   Description:
-#       This program manages a simple pet daycare database using a list of dictionaries.
-#       Users can: add a new pet, view all pets, update pet preferences or information, search pets 
-#       by species and exit the program. Each pet entry includes: Name, specie, preference
-#       The program uses functions for each operation and loops through a menu until
-#       the user chooses to exit.        
-###################################################################################
+#       This program simulates two page replacement algorithms: Second Chance 
+#       and Least Recently Used (LRU). It uses a linked list to represent the
+#       frame queue. Each page in memory contains a reference bit (R-bit) that
+#       determines whether the page receives a "second chance" before being 
+#       replaced. If a page fault occurs and the front page has R = 1, the 
+#       algorithm clears the bit, moves the page to the end of the queue, and 
+#       continues searching for a page with R = 0 to replace.
+#
+#   Files:
+#       main.cpp
+#
+#   Instructions:
+#       None
+#
+##################################################################################
 
 print("===============================================================")
 print("Author: Victoria Heredia")

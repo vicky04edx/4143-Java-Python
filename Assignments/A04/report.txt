@@ -1,0 +1,119 @@
+Author: Victoria Heredia
+Title: Program 4 - Movie Ratings
+Course: CMPS 4143
+Description:This program reads movie titles and ratings from a file,
+stores the ratings in a dictionary of lists, and calculates each movie’s
+average rating. It then writes a formatted report to 'report.txt',
+including all movies and the top-rated one.
+
+Movie Ratings Report
+---------------------------------------------------------------------
+Inception | Ratings: [9, 8, 7, 10] | Average: 8.50
+The Matrix | Ratings: [8, 9, 7, 10] | Average: 8.50
+Titanic | Ratings: [7, 6, 8, 10] | Average: 7.75
+Pulp Fiction | Ratings: [9, 8, 7] | Average: 8.00
+The Dark Knight | Ratings: [9, 8, 7] | Average: 8.00
+Forrest Gump | Ratings: [9, 8, 7] | Average: 8.00
+Fight Club | Ratings: [8, 9, 7] | Average: 8.00
+The Godfather | Ratings: [10, 9, 8] | Average: 9.00
+The Shawshank Redemption | Ratings: [10, 9, 7] | Average: 8.67
+Goodfellas | Ratings: [9, 8, 7] | Average: 8.00
+Avatar | Ratings: [7, 8, 9] | Average: 8.00
+Jurassic Park | Ratings: [8, 7, 9] | Average: 8.00
+Star Wars: A New Hope | Ratings: [9, 8, 7] | Average: 8.00
+The Lord of the Rings: The Fellowship of the Ring | Ratings: [9, 8, 7] | Average: 8.00
+Interstellar | Ratings: [9, 8, 7] | Average: 8.00
+Spirited Away | Ratings: [9, 8, 7] | Average: 8.00
+Blade Runner 2049 | Ratings: [8, 9, 7] | Average: 8.00
+Mad Max: Fury Road | Ratings: [8, 9, 9, 8, 7] | Average: 8.20
+E.T. the Extra-Terrestrial | Ratings: [8, 9] | Average: 8.50
+Alien | Ratings: [9, 8] | Average: 8.50
+The Shining | Ratings: [9, 8] | Average: 8.50
+Eternal Sunshine of the Spotless Mind | Ratings: [9, 8] | Average: 8.50
+Arrival | Ratings: [8, 9, 9, 8] | Average: 8.50
+Whiplash | Ratings: [9, 8] | Average: 8.50
+The Grand Budapest Hotel | Ratings: [8, 9] | Average: 8.50
+La La Land | Ratings: [8, 9] | Average: 8.50
+Reservoir Dogs | Ratings: [8, 9] | Average: 8.50
+Donnie Darko | Ratings: [8, 9] | Average: 8.50
+No Country for Old Men | Ratings: [9, 8] | Average: 8.50
+There Will Be Blood | Ratings: [9, 8] | Average: 8.50
+Parasite | Ratings: [9, 8, 10, 9] | Average: 9.00
+Joker | Ratings: [8, 9] | Average: 8.50
+Toy Story | Ratings: [8, 9] | Average: 8.50
+Fargo | Ratings: [9, 8] | Average: 8.50
+The Social Network | Ratings: [8, 9] | Average: 8.50
+Inglourious Basterds | Ratings: [9, 8] | Average: 8.50
+Saving Private Ryan | Ratings: [9, 8] | Average: 8.50
+Gladiator | Ratings: [8, 9] | Average: 8.50
+Back to the Future | Ratings: [9, 8] | Average: 8.50
+Terminator 2: Judgment Day | Ratings: [9, 8] | Average: 8.50
+The Silence of the Lambs | Ratings: [9, 8] | Average: 8.50
+Seven | Ratings: [9, 8] | Average: 8.50
+The Departed | Ratings: [9, 8] | Average: 8.50
+Kill Bill: Vol. 1 | Ratings: [8, 9] | Average: 8.50
+Apocalypse Now | Ratings: [9, 8] | Average: 8.50
+A Clockwork Orange | Ratings: [8, 9] | Average: 8.50
+Oldboy | Ratings: [8, 9] | Average: 8.50
+Memories of Murder | Ratings: [9, 8] | Average: 8.50
+Pan's Labyrinth | Ratings: [9, 8] | Average: 8.50
+City of God | Ratings: [9, 8] | Average: 8.50
+Amelie | Ratings: [8, 9] | Average: 8.50
+The Green Mile | Ratings: [9, 8] | Average: 8.50
+Catch Me If You Can | Ratings: [8, 9] | Average: 8.50
+Mystic River | Ratings: [8, 9] | Average: 8.50
+Drive | Ratings: [8, 9] | Average: 8.50
+Birdman | Ratings: [8, 9] | Average: 8.50
+Room | Ratings: [9, 8] | Average: 8.50
+Her | Ratings: [9, 8] | Average: 8.50
+Moonlight | Ratings: [9, 8] | Average: 8.50
+The King's Speech | Ratings: [8, 9] | Average: 8.50
+Slumdog Millionaire | Ratings: [8, 9] | Average: 8.50
+A Beautiful Mind | Ratings: [9, 8] | Average: 8.50
+The Aviator | Ratings: [8, 9] | Average: 8.50
+Gangs of New York | Ratings: [8, 9] | Average: 8.50
+Minority Report | Ratings: [8, 9] | Average: 8.50
+Memento | Ratings: [9, 8] | Average: 8.50
+The Wolf of Wall Street | Ratings: [8, 9] | Average: 8.50
+Django Unchained | Ratings: [9, 8] | Average: 8.50
+Shutter Island | Ratings: [8, 9] | Average: 8.50
+Prisoners | Ratings: [9, 8] | Average: 8.50
+Rush | Ratings: [8, 9] | Average: 8.50
+Gravity | Ratings: [8, 9] | Average: 8.50
+12 Years a Slave | Ratings: [9, 8] | Average: 8.50
+Argo | Ratings: [8, 9] | Average: 8.50
+Boyhood | Ratings: [8, 9] | Average: 8.50
+The Revenant | Ratings: [8, 9] | Average: 8.50
+Spotlight | Ratings: [9, 8] | Average: 8.50
+Manchester by the Sea | Ratings: [8, 9] | Average: 8.50
+Hacksaw Ridge | Ratings: [9, 8] | Average: 8.50
+Hidden Figures | Ratings: [8, 9] | Average: 8.50
+Dunkirk | Ratings: [9, 8] | Average: 8.50
+Call Me by Your Name | Ratings: [8, 9] | Average: 8.50
+Get Out | Ratings: [9, 8] | Average: 8.50
+Three Billboards Outside Ebbing, Missouri | Ratings: [9, 8] | Average: 8.50
+A Star Is Born | Ratings: [8, 9] | Average: 8.50
+Roma | Ratings: [9, 8] | Average: 8.50
+Black Panther | Ratings: [8, 9] | Average: 8.50
+Bohemian Rhapsody | Ratings: [9, 8] | Average: 8.50
+Jojo Rabbit | Ratings: [8, 9] | Average: 8.50
+1917 | Ratings: [9, 8] | Average: 8.50
+Once Upon a Time in Hollywood | Ratings: [8, 9] | Average: 8.50
+Nomadland | Ratings: [9, 8] | Average: 8.50
+The Father | Ratings: [8, 9] | Average: 8.50
+Promising Young Woman | Ratings: [8, 9] | Average: 8.50
+Sound of Metal | Ratings: [9, 8] | Average: 8.50
+CODA | Ratings: [8, 9] | Average: 8.50
+Dune | Ratings: [9, 8] | Average: 8.50
+The Power of the Dog | Ratings: [8, 9] | Average: 8.50
+West Side Story | Ratings: [8, 9] | Average: 8.50
+Everything Everywhere All at Once | Ratings: [9, 8] | Average: 8.50
+The Banshees of Inisherin | Ratings: [8, 9] | Average: 8.50
+Tár | Ratings: [8, 9] | Average: 8.50
+All Quiet on the Western Front | Ratings: [9, 8] | Average: 8.50
+Oppenheimer | Ratings: [10, 9] | Average: 9.50
+Barbie | Ratings: [8, 9] | Average: 8.50
+Poor Things | Ratings: [9, 8] | Average: 8.50
+Killers of the Flower Moon | Ratings: [9, 8] | Average: 8.50
+
+Top Rated Movie: Oppenheimer (9.50)

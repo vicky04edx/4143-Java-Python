@@ -1,0 +1,241 @@
+Inception,9
+The Matrix,8
+Titanic,7
+Inception,8
+Titanic,6
+The Matrix,9
+Pulp Fiction,9
+The Dark Knight,9
+Forrest Gump,9
+Fight Club,8
+The Godfather,10
+The Shawshank Redemption,10
+Pulp Fiction,8
+The Dark Knight,8
+Forrest Gump,8
+Fight Club,9
+The Godfather,9
+The Shawshank Redemption,9
+Goodfellas,9
+Avatar,7
+Jurassic Park,8
+Star Wars: A New Hope,9
+The Lord of the Rings: The Fellowship of the Ring,9
+Goodfellas,8
+Avatar,8
+Jurassic Park,7
+Star Wars: A New Hope,8
+The Lord of the Rings: The Fellowship of the Ring,8
+Interstellar,9
+Spirited Away,9
+Blade Runner 2049,8
+Mad Max: Fury Road,8
+Interstellar,8
+Spirited Away,8
+Blade Runner 2049,9
+Mad Max: Fury Road,9
+E.T. the Extra-Terrestrial,8
+Alien,9
+The Shining,9
+Eternal Sunshine of the Spotless Mind,9
+E.T. the Extra-Terrestrial,9
+Alien,8
+The Shining,8
+Eternal Sunshine of the Spotless Mind,8
+Arrival,8
+Whiplash,9
+The Grand Budapest Hotel,8
+La La Land,8
+Arrival,9
+Whiplash,8
+The Grand Budapest Hotel,9
+La La Land,9
+Reservoir Dogs,8
+Donnie Darko,8
+No Country for Old Men,9
+There Will Be Blood,9
+Reservoir Dogs,9
+Donnie Darko,9
+No Country for Old Men,8
+There Will Be Blood,8
+Parasite,9
+Joker,8
+Toy Story,8
+Fargo,9
+Parasite,8
+Joker,9
+Toy Story,9
+Fargo,8
+The Social Network,8
+Inglourious Basterds,9
+Saving Private Ryan,9
+Gladiator,8
+The Social Network,9
+Inglourious Basterds,8
+Saving Private Ryan,8
+Gladiator,9
+Back to the Future,9
+Terminator 2: Judgment Day,9
+The Silence of the Lambs,9
+Seven,9
+Back to the Future,8
+Terminator 2: Judgment Day,8
+The Silence of the Lambs,8
+Seven,8
+The Departed,9
+Kill Bill: Vol. 1,8
+Apocalypse Now,9
+A Clockwork Orange,8
+The Departed,8
+Kill Bill: Vol. 1,9
+Apocalypse Now,8
+A Clockwork Orange,9
+Oldboy,8
+Memories of Murder,9
+Pan's Labyrinth,9
+City of God,9
+Oldboy,9
+Memories of Murder,8
+Pan's Labyrinth,8
+City of God,8
+Amelie,8
+The Green Mile,9
+Catch Me If You Can,8
+Mystic River,8
+Amelie,9
+The Green Mile,8
+Catch Me If You Can,9
+Mystic River,9
+Drive,8
+Birdman,8
+Room,9
+Her,9
+Drive,9
+Birdman,9
+Room,8
+Her,8
+Moonlight,9
+The King's Speech,8
+Slumdog Millionaire,8
+A Beautiful Mind,9
+Moonlight,8
+The King's Speech,9
+Slumdog Millionaire,9
+A Beautiful Mind,8
+The Aviator,8
+Gangs of New York,8
+Minority Report,8
+Memento,9
+The Aviator,9
+Gangs of New York,9
+Minority Report,9
+Memento,8
+The Wolf of Wall Street,8
+Django Unchained,9
+Shutter Island,8
+Prisoners,9
+The Wolf of Wall Street,9
+Django Unchained,8
+Shutter Island,9
+Prisoners,8
+Rush,8
+Gravity,8
+12 Years a Slave,9
+Argo,8
+Rush,9
+Gravity,9
+12 Years a Slave,8
+Argo,9
+Boyhood,8
+The Revenant,8
+Spotlight,9
+Mad Max: Fury Road,9
+Boyhood,9
+The Revenant,9
+Spotlight,8
+Mad Max: Fury Road,8
+Manchester by the Sea,8
+Hacksaw Ridge,9
+Arrival,9
+Hidden Figures,8
+Manchester by the Sea,9
+Hacksaw Ridge,8
+Arrival,8
+Hidden Figures,9
+Dunkirk,9
+Call Me by Your Name,8
+Get Out,9
+Three Billboards Outside Ebbing, Missouri,9
+Dunkirk,8
+Call Me by Your Name,9
+Get Out,8
+Three Billboards Outside Ebbing, Missouri,8
+A Star Is Born,8
+Roma,9
+Black Panther,8
+Bohemian Rhapsody,9
+A Star Is Born,9
+Roma,8
+Black Panther,9
+Bohemian Rhapsody,8
+Jojo Rabbit,8
+1917,9
+Parasite,10
+Once Upon a Time in Hollywood,8
+Jojo Rabbit,9
+1917,8
+Parasite,9
+Once Upon a Time in Hollywood,9
+Nomadland,9
+The Father,8
+Promising Young Woman,8
+Sound of Metal,9
+Nomadland,8
+The Father,9
+Promising Young Woman,9
+Sound of Metal,8
+CODA,8
+Dune,9
+The Power of the Dog,8
+West Side Story,8
+CODA,9
+Dune,8
+The Power of the Dog,9
+West Side Story,9
+Everything Everywhere All at Once,9
+The Banshees of Inisherin,8
+Tár,8
+All Quiet on the Western Front,9
+Everything Everywhere All at Once,8
+The Banshees of Inisherin,9
+Tár,9
+All Quiet on the Western Front,8
+Oppenheimer,10
+Barbie,8
+Poor Things,9
+Killers of the Flower Moon,9
+Oppenheimer,9
+Barbie,9
+Poor Things,8
+Killers of the Flower Moon,8
+Inception,7
+The Matrix,7
+Titanic,8
+Inception,10
+The Matrix,10
+Titanic,10
+Pulp Fiction,7
+The Dark Knight,7
+Forrest Gump,7
+Fight Club,7
+The Godfather,8
+The Shawshank Redemption,7
+Goodfellas,7
+Avatar,9
+Jurassic Park,9
+Star Wars: A New Hope,7
+The Lord of the Rings: The Fellowship of the Ring,7
+Interstellar,7
+Spirited Away,7
+Blade Runner 2049,7
+Mad Max: Fury Road,7

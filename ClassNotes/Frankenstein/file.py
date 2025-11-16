@@ -8,12 +8,21 @@ with open("Frankenstein1.txt", encoding = "utf-8") as fin:
         wordsLine = s.split()
         sum += len(wordsLine)
 
-with open("Frankenstein1.txt", encoding = "utf-8") as fin:
-    for char in line:
-        s = line.strip()
-        wordsLine = s.split()
+# with open("Frankenstein1.txt", encoding = "utf-8") as fin:
+#     for char in line:
+#         s = line.strip()
+#         wordsLine = s.split()
+#         for char in line:
+#             digitSum += int(char)
+
+# Find and count all of the digits in a text file
+# using isdigit() function
+total = 0
+with open("Frankenstein1.txt", encoding="utf-8") as fin:
+    for line in fin:
         for char in line:
-            digitSum += int(char)
+            if char.isdigit():
+                total += int(char)
             
 with open("Frankenstein1.txt", encoding = "utf-8") as fin:
     for line in fin:
