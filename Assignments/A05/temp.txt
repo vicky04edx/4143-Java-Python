@@ -1,0 +1,64 @@
+2025-03-15 10:23:45 User: alice@example.com Action: LOGIN_SUCCESS
+2025-03-15 10:25:10 User: bob@example.com Action: LOGIN_FAILURE Code:
+403
+2025-03-15 11:00:00 IP: 192.168.0.10 Request: /index.html
+[ERROR] 2025/03/15 11:15:32 Unable to connect to database
+Invalid entry detected.
+2025-03-15 11:20:58 User: carlosp0828@gmail.com ACTION: LOGIN_FAILURE Code:403
+2025-03-15 11:43:32 IP: 193.178.0.10 Request: /index1.html
+2025-03-15 12:25:28 User: Rykir Action: LOGIN_SUCCESS
+2025-03-15 12:58:09 User: tom@company.org Action: LOGIN_FAILURE Code: 403
+
+2025-03-16 08:27:56 IP: 10.20.0.5 Request: /dashboard 
+2025-03-16 08:43:34 User: vickyh0428@gmail.com Action: LOGIN_SUCCESS
+2025-03-16 08:46:23 IP: 56.78.0.8 Request: /index2.html
+[ERROR] 2025/03/16 10:20:57 Unable to connect to database
+Invalid entry detected.
+2025-03-16 10:44:20 User: Juanito Action: LOGIN_SUCCESS
+2025-03-16 11:39:39 User: robertoh@msn.com Action: LOGIN_FAILURE
+
+User: nicoS2404@gmail.com Action: LOGIN_SUCCESS
+Invalid entry detected.
+[ERROR] Something bad happened without timestamp
+
+2025-03-20 07:32:04 User: lisaM032@company.org Action: PASSWORD_RESET_REQUEST
+2025-03-20 07:35:14 User: lisaM032@company.org Action: PASSWORD_RESET_FAILURE
+2025-03-20 07:59:24 User: peterp0810@work.com Action: PRIVILEGE_GRANTED
+2025-03-20 08:05:25 User: Lauren Action: LOGIN_SUCCESS
+2025-03-20 08:10:11 IP: 22.14.90.44 Request: /login
+2025-03-20 09:31:00 User: marioB@outlook.com Action: LOGIN_FAILURE
+2025-03-20 09:34:45 User: marioB@outlook.com Action: LOGIN_SUCCESS
+2025-03-20 10:33:10 [WARNING] 2025/03/20 Cache nearing capacity
+
+2025-03-20 09:50:57 User: test_user Action: ACCOUNT_LOCKED
+Invalid entry detected missing timestamp
+
+2025-03-22 08:40:33 User: harryP Action: PASSWORD_RESET_REQUEST
+2025-03-22 08:42:12 User: harryP Action: PASSWORD_RESET_SUCCESS
+2025-03-22 09:00:00 IP: 102.88.47.22 Request: /index3.html
+[ERROR] 2025/03/22 09:04:58 Service timeout
+2025-03-22 09:10:44 User: unknown Action: LOGIN_FAILURE Code: 401
+2025-03-22 09:12:22 User: unknown Action: LOGIN_SUCCESS
+
+2025-03-25 10:30:48 User: daniel@hotmail.com Action: LOGIN_SUCCESS
+2025-03-25 10:32:10 User: daniel@hotmail.com Action: LOGOUT
+2025-03-25 11:15:30 User: raulcn2025@gmail.com Action: PRIVILEGE_REVOKED
+2025-03-25 11:17:48 User: raulcn2025@gmail.com Action: LOGIN_FAILURE Code:401
+2025-03-25 11:19:09 IP: 64.18.11.21 Request: /settings
+
+2025-03-30 09:00:13 IP: 174.200.0.3 Request: /dashboard
+2025-03-30 09:02:44 User: taylor1398 Action: LOGIN_FAILURE Code:403
+[ERROR] 2025/03/30 10:03:01 Access denied
+2025-03-30 09:04:22 User: taylor1389 Action: LOGIN_SUCCESS
+2025-03-30 11:00:00 User: jalecia08@gmail.com Action: LOGIN_FAILURE Code: 403
+2025-03-30 11:02:44 User: jalecia08@gmail.com Action: LOGIN_SUCCESS
+2025-03-30 11:22:19 User: jalecia08@gmail.com Action: SESSION_TIMEOUT
+
+2025-04-02 09:10:58 IP: 145.88.10.55 Request: /home
+2025-04-02 09:12:14 User: aleimi12@company.org Action: LOGIN_FAILURE
+2025-04-02 09:12:33 User: aleimi12@company.org Action: LOGIN_SUCCESS
+
+2025-04-04 11:50:00 IP: 88.33.77.44 Request: /home
+2025-04-04 11:51:23 User: guest Action: LOGIN_FAILURE
+Invalid entry detected.
+2025-04-04 11:54:16 [ERROR] 2025/03/20 File system error

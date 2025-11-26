@@ -22,7 +22,7 @@ saturatedImg = enhanceImg.enhance(0)
 # small_gray = gray_img.resize((300, 300))
 
 # Resize image
-small_gray = saturatedImg.resize((300, 300))
+small_gray = saturatedImg.resize((300, 300))   
 
 # Show edited image
 small_gray.show()
