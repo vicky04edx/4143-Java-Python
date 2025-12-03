@@ -60,7 +60,7 @@ To prevent any potential combination of letters and numbers in an email address 
     - `[Ee]` -> Checks for either E or e
     - `[Rr]{2}` -> Checks for two consective r, not case sensitive
     - `\w*` -> Zero or more alphanumeric characters
-    - Essentially searches for any occurence of the string err which might indicate an error.
+    - Essentially searches for any occurence of the string `err` which might indicate an error.
 ### Testing
 The file called `test.py` has a set of automated unit tests that validate the behavior of the `parse_logs` function that can be found in `main.py`. The tests were written using Python's unittest framework. The main goal of the test file is to ensure that the function processes correctly the log files and return a dictionary containing:
 - total: Number of non-empty log lines
