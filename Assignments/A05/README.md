@@ -173,5 +173,5 @@ If a test fails, you would see `F` instead, which indicates a test case needs at
 To run a test make sure that:
 
 - `main.py` contains the parse_logs function.
-- All test log files (`testf1_03_15.txt`, etc.) are in the same directory as the `test.py` file.
+- All test log files (`testf1_0315.txt`, etc.) are in the same directory as the `test.py` file.
 - Then run `python test.py` in the terminal
