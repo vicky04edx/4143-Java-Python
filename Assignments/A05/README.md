@@ -53,7 +53,7 @@ To prevent any potential combination of letters and numbers in an email address 
     - `\s*` -> non-capturing group eliminates leading spaces but still allows for no spaces at all via *
     - `(\w+)` -> one or more alphanumeric chars in a capturing group, this is the actual status.
 - `ip = re.findall(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", s)`
-    -`\d{1,3}\.` -> Matches a number 1-3 digits long followed by a literal .
+    - `\d{1,3}\.` -> Matches a number 1-3 digits long followed by a literal .
     - Repeated 4 times for the standard format of IPv4 addreses
 - `err = re.findall(r"\w*[Ee][Rr]{2}\w*", s)`
     - `\w*` -> Zero or more alphanumeric characters
@@ -62,23 +62,23 @@ To prevent any potential combination of letters and numbers in an email address 
     - `\w*` -> Zero or more alphanumeric characters
     - Essentially searches for any occurence of the string err which might indicate an error.
 ### Testing
-The file called `test.py` has a set of automated unit tests to validates the behavior of the `parse_logs` function that can be foun in `main.py`. The tests were written using Python's unittest framework. The main goal of the test suit is to ensure that the function processes correctly the log files and retirn a dictionary containing:
-- Total: Number of non-empty log lines
+The file called `test.py` has a set of automated unit tests that validate the behavior of the `parse_logs` function that can be found in `main.py`. The tests were written using Python's unittest framework. The main goal of the test file is to ensure that the function processes correctly the log files and return a dictionary containing:
+- total: Number of non-empty log lines
 - invalid: Number of lines containin "Invalid entry dtected"
-- Errors: Number of lines containing "[ERROR]"
-- Users: Aset of valid used email addresses extracted from the logs. 
-Each provided test file corresponds to a specific expected output that `parse_logs` must match.
+- errors: Number of lines containing "[ERROR]"
+- users: Aset of valid used email addresses extracted from the logs. 
+Each test file corresponds to a specific expected output that `parse_logs` must match.
 
 For example: 
 - Test Case 1: file name that reads from is `testsf1_03_15.txt`
     - Total expected: 9
-    - invalid: 1
+    - Invalid: 1
     - Errors: 1
     - Extracted user: `alice@example.com`
 
 After running the `test.py` file, the output is:
 
-    ........ #each dot represent a test, if if was showing  F means that soemthing was wrong that file number
+    ........
     
     ----------------------------------------------------------------------
     
@@ -86,7 +86,12 @@ After running the `test.py` file, the output is:
 
     OK
 
+
+Each `.` represents a passing test.
+If a test fails, you would see `F` instead, which indicates a test case needs attention.
+
 To run a test make sure that:
 
 - `main.py` contains the parse_logs function.
-- All test log files (testf1_03_15.txt, etc.) are in the same directory as the test file.
+- All test log files (`testf1_03_15.txt`, etc.) are in the same directory as the `test.py` file.
+- Then run `python test.py` in the terminal
