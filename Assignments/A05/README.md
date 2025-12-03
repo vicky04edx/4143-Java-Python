@@ -70,12 +70,18 @@ The file called `test.py` has a set of automated unit tests to validates the beh
 Each provided test file corresponds to a specific expected output that `parse_logs` must match.
 
 For example: 
-- Test Case 1
-    file name that reads from is `testsf1_03_15.txt`
+- Test Case 1: file name that reads from is `testsf1_03_15.txt`
     - Total expected: 9
     - invalid: 1
     - Errors: 1
     - Extracted user: `alice@example.com`
+
+After running the `test.py` file, the output is:
+    ........
+    ----------------------------------------------------------------------
+    Ran 8 tests in 0.016s
+
+    OK
 
 To run a test make sure that:
 
