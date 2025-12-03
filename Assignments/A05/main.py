@@ -110,13 +110,42 @@ def parse_logs(lines):
         "actions": actionDict
     }
 
-# Real program execution:
+# Program execution
 if __name__ == "__main__":
     with open("log.txt") as fin:
         lines = fin.readlines()
 
     result = parse_logs(lines)
-    print(result)
+
+    # values returnd after calling the function
+    total = result["total"]
+    invalid = result["invalid"]
+    valid = total - invalid
+    errors = result["errors"]
+    ips = result["ips"]
+    actions = result["actions"]
+
+    print(f"Total lines processed: {total}")
+    print(f"Valid lines: {valid}")
+    print(f"Invalid lines: {invalid}")
+    print("Users found:")
+
+    # Loop through each user and their list of actions
+    for user, acts in actions.items():
+        
+        # count how many times each action word appears
+        # for example LOGIN_SUCCESS, LOGIN_FAILURE, etc. 
+        actionSummary = {}
+        for a in acts:
+            actionSummary[a] = actionSummary.get(a,0) + 1
+
+        # print each action with its count
+        for act, count in actionSummary.items():
+            print(f"- {user} ({count},{act})")
+
+    print(f"Errors detected: {errors}")
+    print(f"Unique IP's: {len(ips)}")
+
 
 #######################################
 #                                     #
