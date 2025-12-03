@@ -63,9 +63,13 @@ To prevent any potential combination of letters and numbers in an email address 
     - Essentially searches for any occurence of the string `err` which might indicate an error.
 
 After running the `main.py` file, the output is:
+        
         Total lines processed: 62
+        
         Valid lines: 57
+        
         Invalid lines: 5
+        
         Users found:
         
         - alice@example.com (1,LOGIN_SUCCESS)
