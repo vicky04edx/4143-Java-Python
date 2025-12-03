@@ -11,14 +11,14 @@ This Python program is designed to analyze data from a system log with inconsist
 |   1   | [main.py](./main.py)| Contains the `parse_logs` function used to analyze and extract information from log entries   |
 |   2   | [test.py](./test.py)| This file has unit tests (using unittest) that validate the behavior of the `parse_logs` function  |
 |   3   | [log.txt](./log.txt)| General log file with valid, invalid, error, and mixed-format entries on multiple dates.       |
-|   4   | [textf1_0315.txt](./textf1_0315.txt)| Test log file used in Test Case 1      |
-|   5   | [textf2_0316.txt](./textf2_0316.txt)| Test log file used in Test Case 2      |
-|   6   | [textf3_0320.txt](./textf3_0320.txt)| Test log file used in Test Case 3      |
-|   7   | [textf4_0322.txt](./textf4_0322.txt)| Test log file used in Test Case 4      |
-|   8   | [textf5_0325.txt](./textf5_0325.txt)| Test log file used in Test Case 5      |
-|   9   | [textf6_0330.txt](./textf6_0330.txt)| Test log file used in Test Case 6      |
-|   10  | [textf7_0402.txt](./textf7_0402.txt)| Test log file used in Test Case 7      |
-|   11  | [textf8_0404.txt](./textf8_0404.txt)| Test log file used in Test Case 8      |
+|   4   | [testf1_0315.txt](./testf1_0315.txt)| Test log file used in Test Case 1      |
+|   5   | [testf2_0316.txt](./testf2_0316.txt)| Test log file used in Test Case 2      |
+|   6   | [testf3_0320.txt](./testf3_0320.txt)| Test log file used in Test Case 3      |
+|   7   | [testf4_0322.txt](./testf4_0322.txt)| Test log file used in Test Case 4      |
+|   8   | [testf5_0325.txt](./testf5_0325.txt)| Test log file used in Test Case 5      |
+|   9   | [testf6_0330.txt](./testf6_0330.txt)| Test log file used in Test Case 6      |
+|   10  | [testf7_0402.txt](./testf7_0402.txt)| Test log file used in Test Case 7      |
+|   11  | [testf8_0404.txt](./testf8_0404.txt)| Test log file used in Test Case 8      |
 
 
 ### Description:
