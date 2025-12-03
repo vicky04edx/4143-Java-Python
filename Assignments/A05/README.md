@@ -4,6 +4,10 @@
 ### Overview:
 This Python program is designed to analyze data from a system log with inconsistent formatting using Python's Regular Expression engine. The program will subsequently "clean" the data into an easily manageable format and output relevant information gathered.
 
+### Team member roles:
+- Rykir had the role of `Regex Specialist Designs`: Design regex patterns
+- Vicky had the role of `Testing Lead`: creates and runs test cases for regex patterns
+
 ### Files
 
 |   #   | File             | Description                                        |
@@ -131,6 +135,11 @@ After running the `main.py` file, the output is:
         - guest@fakeemail.com (1,LOGIN_FAILURE)
         Errors detected: 6
         Unique IP's: 10
+
+To run `main.py` make sure that:
+- `log.txt`is in the same directory as the `main.py` file.
+- Then run `python main.py` in the terminal
+
 
 ### Testing
 The file called `test.py` has a set of automated unit tests that validate the behavior of the `parse_logs` function that can be found in `main.py`. The tests were written using Python's unittest framework. The main goal of the test file is to ensure that the function processes correctly the log files and return a dictionary containing:
