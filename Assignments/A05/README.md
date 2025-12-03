@@ -75,10 +75,9 @@ For example:
     - Total expected: 9
     - invalid: 1
     - Errors: 1
-    - Extracted user: alice@example.com
+    - Extracted user: `alice@example.com`
 
 To run a test make sure that:
 
-    `main.py` contains the parse_logs function.
-
-    All test log files (testf1_03_15.txt, etc.) are in the same directory as the test file.
+- `main.py` contains the parse_logs function.
+- All test log files (testf1_03_15.txt, etc.) are in the same directory as the test file.
