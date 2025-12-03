@@ -8,17 +8,17 @@ This Python program is designed to analyze data from a system log with inconsist
 
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | [main.py](./main.py)| Main has the code to overload operations such as      |
-|   2   | [test.py](./test.py)| This file has the code to overload operations such as   |
-|   3   | [log.txt](./log.txt)| It contains fractions operations       |
-|   4   | [textf1_03_15.txt](./textf1_03_15.txt)| It contains fractions operations       |
-|   5   | [textf2_03_16.txt](./textf2_03_16.txt)| It contains fractions operations       |
-|   6   | [textf3_03_20.txt](./textf3_03_20.txt)| It contains fractions operations       |
-|   7   | [textf4_03_22.txt](./textf4_03_22.txt)| It contains fractions operations       |
-|   8   | [textf5_03_25.txt](./textf5_03_25.txt)| It contains fractions operations       |
-|   9   | [textf6_03_30.txt](./textf6_03_30.txt)| It contains fractions operations       |
-|   10  | [textf7_04_02.txt](./textf7_04_02.txt)| It contains fractions operations       |
-|   11  | [textf8_04_04.txt](./textf8_04_04.txt)| It contains fractions operations       |
+|   1   | [main.py](./main.py)| Contains the `parse_logs` function used to analyze and extract information from log entries   |
+|   2   | [test.py](./test.py)| This file has unit tests (using unittest) that validate the behavior of the `parse_logs` function  |
+|   3   | [log.txt](./log.txt)| General log file with valid, invalid, error, and mixed-format entries on multiple dates.       |
+|   4   | [textf1_0315.txt](./textf1_0315.txt)| Test log file used in Test Case 1      |
+|   5   | [textf2_0316.txt](./textf2_0316.txt)| Test log file used in Test Case 2      |
+|   6   | [textf3_0320.txt](./textf3_0320.txt)| Test log file used in Test Case 3      |
+|   7   | [textf4_0322.txt](./textf4_0322.txt)| Test log file used in Test Case 4      |
+|   8   | [textf5_0325.txt](./textf5_0325.txt)| Test log file used in Test Case 5      |
+|   9   | [textf6_0330.txt](./textf6_0330.txt)| Test log file used in Test Case 6      |
+|   10  | [textf7_0402.txt](./textf7_0402.txt)| Test log file used in Test Case 7      |
+|   11  | [textf8_0404.txt](./textf8_0404.txt)| Test log file used in Test Case 8      |
 
 
 ### Description:
