@@ -78,7 +78,9 @@ For example:
 
 After running the `test.py` file, the output is:
     ........
+    
     ----------------------------------------------------------------------
+    
     Ran 8 tests in 0.016s
 
     OK
