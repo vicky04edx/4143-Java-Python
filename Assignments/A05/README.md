@@ -67,34 +67,63 @@ After running the `main.py` file, the output is:
         Valid lines: 57
         Invalid lines: 5
         Users found:
+        
         - alice@example.com (1,LOGIN_SUCCESS)
+        
         - bob@example.com (1,LOGIN_FAILURE)
+        
         - carlosp0828@gmail.com (1,LOGIN_FAILURE)
+        
         - rykire@yahoo.com (1,LOGIN_SUCCESS)
+        
         - tom@company.org (1,LOGIN_FAILURE)
+        
         - vickyh0428@gmail.com (1,LOGIN_SUCCESS)
+        
         - a@b.c (1,LOGIN_SUCCESS)
+        
         - robertoh@msn.com (1,LOGIN_FAILURE)
+        
         - nicos2404@gmail.com (1,LOGIN_SUCCESS)
+        
         - lisam032@company.org (1,PASSWORD_RESET_REQUEST)
+        
         - lisam032@company.org (1,PASSWORD_RESET_FAILURE)
+        
         - peterp0810@work.com (1,PRIVILEGE_GRANTED)
+        
         - lauren_55@msutexas.edu (1,LOGIN_SUCCESS)
+        
         - mariob@outlook.com (1,LOGIN_FAILURE)
+        
         - mariob@outlook.com (1,LOGIN_SUCCESS)
+        
         - harrypotter@hogwarts.magic (1,PASSWORD_RESET_REQUEST)
+        
         - harrypotter@hogwarts.magic (1,PASSWORD_RESET_SUCCESS)
+        
         - daniel@hotmail.com (1,LOGIN_SUCCESS)
+        
         - daniel@hotmail.com (1,LOGOUT)
+        
         - raulcn2025@gmail.com (1,PRIVILEGE_REVOKED)
+        
         - raulcn2025@gmail.com (1,LOGIN_FAILURE)
+        
         - taylor1389@bacon.edu (1,LOGIN_FAILURE)
+        
         - taylor1389@bacon.edu (1,LOGIN_SUCCESS)
+        
         - jalecia08@gmail.com (1,LOGIN_FAILURE)
+        
         - jalecia08@gmail.com (1,LOGIN_SUCCESS)
+        
         - jalecia08@gmail.com (1,SESSION_TIMEOUT)
+        
         - aleimi12@company.org (1,LOGIN_FAILURE)
+        
         - aleimi12@company.org (1,LOGIN_SUCCESS)
+
         - guest@fakeemail.com (1,LOGIN_FAILURE)
         Errors detected: 6
         Unique IP's: 10
