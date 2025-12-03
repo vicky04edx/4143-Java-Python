@@ -6,7 +6,7 @@ This Python program is designed to analyze data from a system log with inconsist
 
 ### Team member roles:
 - Rykir had the role of `Regex Specialist Designs`: Design regex patterns
-- Vicky had the role of `Testing Lead`: creates and runs test cases for regex patterns
+- Vicky had the role of `Testing Lead`: creates and runs test cases for regex patterns.
 
 ### Files
 
