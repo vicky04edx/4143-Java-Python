@@ -9,7 +9,7 @@ class TestLogParser(unittest.TestCase):
     # TEST FILE 1
     def testFile1(self):
         # Read file, ignore blank lines
-        with open("testf1_03_15.txt") as f:
+        with open("testf1_0315.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         # Parse logs
@@ -28,7 +28,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 2
     def testFile2(self):
-        with open("testf2_03_16.txt") as f:
+        with open("testf2_0316.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -40,7 +40,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 3
     def testFile3(self):
-        with open("testf3_03_20.txt") as f:
+        with open("testf3_0320.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -52,7 +52,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 4
     def testFile4(self):
-        with open("testf4_03_22.txt") as f:
+        with open("testf4_0322.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -64,7 +64,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 5
     def testFile5(self):
-        with open("testf5_03_25.txt") as f:
+        with open("testf5_0325.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -76,7 +76,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 6
     def testFile6(self):
-        with open("testf6_03_30.txt") as f:
+        with open("testf6_0330.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -88,7 +88,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 7
     def testFile7(self):
-        with open("testf7_04_02.txt") as f:
+        with open("testf7_0402.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
@@ -100,7 +100,7 @@ class TestLogParser(unittest.TestCase):
 
     # TEST FILE 8
     def testFile8(self):
-        with open("testf8_04_04.txt") as f:
+        with open("testf8_0404.txt") as f:
             lines = [line for line in f.readlines() if line.strip()]
 
         result = parse_logs(lines)
