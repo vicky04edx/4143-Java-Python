@@ -77,6 +77,7 @@ For example:
     - Extracted user: `alice@example.com`
 
 After running the `test.py` file, the output is:
+
     ........
     
     ----------------------------------------------------------------------
