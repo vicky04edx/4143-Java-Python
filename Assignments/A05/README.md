@@ -1,4 +1,4 @@
-## A05 - Fraction Class
+## P05 - Regular Expression Log Cleaner
 ### Victoria Heredia and Rykir Evans
 
 ### Overview:
