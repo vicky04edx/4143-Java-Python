@@ -78,7 +78,7 @@ For example:
 
 After running the `test.py` file, the output is:
 
-    ........
+    ........ #each dot represent a test, if if was showing  F means that soemthing was wrong that file number
     
     ----------------------------------------------------------------------
     
