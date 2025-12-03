@@ -1,4 +1,0 @@
-2025-04-04 11:50:00 IP: 88.33.77.44 Request: /home
-Invalid entry detected.
-2025-04-04 11:54:16 [ERROR] File system error
-2025-04-05 11:51:23 User: guest@fakeemail.com Action: LOGIN_FAILURE

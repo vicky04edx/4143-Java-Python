@@ -1,6 +1,0 @@
-2025-03-22 08:40:33 User: harryPOTTER@hogwarts.magic Action: PASSWORD_RESET_REQUEST
-2025-03-22 08:42:12 User: harryPOTTER@hogwarts.magic Action: PASSWORD_RESET_SUCCESS
-2025-03-22 09:00:00 IP: 102.88.47.22 Request: /index3.html
-ERROR! 2025/03/22 09:04:58 Service timeout
-2025-03-22 09:10:44 User: unknown Action: LOGIN_FAILURE Code: 401
-2025-03-22 09:12:22 User: unknown Action: LOGIN_SUCCESS

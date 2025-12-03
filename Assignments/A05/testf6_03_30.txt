@@ -1,7 +1,0 @@
-2025-03-30 09:00:13 IP: 174.200.0.3 Request: /dashboard
-2025-03-30 09:02:44 User: taylor1389@bacon.edu Action: LOGIN_FAILURE Code:403
-error: 2025/03/30 10:03:01 Access denied
-2025-03-30 09:04:22 User: taylor1389@bacon.edu Action: LOGIN_SUCCESS
-2025-03-30 11:00:00 User: jalecia08@gmail.com ACTION:LOGIN_FAILURE Code: 403
-2025-03-30 11:02:44 User: jalecia08@gmail.com Action:LOGIN_SUCCESS
-2025-03-30 11:22:19 User: jalecia08@gmail.com Action SESSION_TIMEOUT

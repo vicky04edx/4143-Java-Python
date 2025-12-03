@@ -1,5 +1,0 @@
-2025-03-25 10:30:48 User: daniel@hotmail.com Action: LOGIN_SUCCESS
-2025-03-25 10:32:10 User: daniel@hotmail.com Action: LOGOUT
-2025-03-25 21:15:30 User: raulcn2025@gmail.com Action: PRIVILEGE_REVOKED
-2025-03-25 11:17:48 User: raulcn2025@gmail.com Action: LOGIN_FAILURE Code:401
-2025-03-25 18:19:09 IP: 64.18.11.21 Request: /settings
